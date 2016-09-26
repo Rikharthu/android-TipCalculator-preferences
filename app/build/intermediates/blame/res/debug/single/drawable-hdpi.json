@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Workspace\\Android\\TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Workspace\\Android\\TipCalculator\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Workspace\\Android\\TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "C:\\Workspace\\Android\\TipCalculator\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Tip Percent">
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Remember Tip percent"
+            android:disableDependentsState="true"
+            android:summary="Remember the tip percent for the most recent calculation"
+            android:key="pref_remember_perc"/>
+
+        <EditTextPreference
+            android:defaultValue="15"
+            android:title="Default Tip Percent"
+            android:dependency="pref_remember_perc"
+            android:summary="Set the default tip percent that's used if the tip percent is forgotten"
+            android:numeric="integer"
+            android:key="pref_percent"/>
+
+        <ListPreference
+            android:key="pref_rounding"
+            android:title="Rounding"
+            android:summary="@string/rounding_summary"
+            android:dialogTitle="@string/rounding_title"
+            android:entries="@array/rounding_keys"
+            android:entryValues="@array/rounding_values"
+            android:defaultValue="1"/>
+
+<!-- Each preference has a corresponding key-value pair that the system saves in the
+default shared preferences file. Whenever the user changes a setting, the system
+automatically updates that files -->
+
+    </PreferenceCategory>
+</PreferenceScreen>
