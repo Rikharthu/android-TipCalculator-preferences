@@ -20,4 +20,8 @@
     <string name="rounding_summary">Rounding</string>
     <string name="rounding_title">Rounding Options</string>
     <string name="rounding_default">NONE</string>
+    <string name="prefs_web_page">Open Webpage</string>
+    <string name="voicemail_settings">Calculation Settings</string>
+    <string name="prefs_category_one">Calculation</string>
+    <string name="prefs_summ_category_one">Calculation preferences</string>
 </resources>

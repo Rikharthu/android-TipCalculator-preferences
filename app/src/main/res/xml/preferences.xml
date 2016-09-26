@@ -20,18 +20,33 @@
             android:numeric="integer"
             android:key="pref_percent"/>
 
-        <ListPreference
-            android:key="pref_rounding"
-            android:title="Rounding"
-            android:summary="@string/rounding_summary"
-            android:dialogTitle="@string/rounding_title"
-            android:entries="@array/rounding_keys"
-            android:entryValues="@array/rounding_values"
-            android:defaultValue="1"/>
+    </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="Other Settings">
+
+        <PreferenceScreen
+                android:key="button_voicemail_setting_key"
+                android:title="@string/voicemail_settings"
+                android:persistent="false"
+                >
+            <Preference android:title="@string/prefs_web_page" >
+                <intent android:action="android.intent.action.VIEW"
+                        android:data="http://www.example.com" />
+            </Preference>
+            <ListPreference
+                android:key="pref_rounding"
+                android:title="Rounding"
+                android:summary="@string/rounding_summary"
+                android:dialogTitle="@string/rounding_title"
+                android:entries="@array/rounding_keys"
+                android:entryValues="@array/rounding_values"
+                android:defaultValue="1"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
 <!-- Each preference has a corresponding key-value pair that the system saves in the
 default shared preferences file. Whenever the user changes a setting, the system
 automatically updates that files -->
 
-    </PreferenceCategory>
 </PreferenceScreen>

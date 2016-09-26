@@ -1,4 +1,4 @@
-#Mon Sep 26 13:23:26 EEST 2016
+#Mon Sep 26 14:36:57 EEST 2016
 base.0=C\:\\Workspace\\Android\\TipCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cddd3c5b5c9167ce0957713dd27419c6d01ce1c7
 renamed.1=classes.dex
 renamed.0=classes2.dex
